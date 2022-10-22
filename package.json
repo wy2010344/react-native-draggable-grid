@@ -1,5 +1,5 @@
 {
-  "name": "@wy2010344/react-native-draggable-grid",
+  "name": "@wangyang2010344/react-native-draggable-grid",
   "keywords": [
     "drag",
     "sortable",
@@ -11,7 +11,7 @@
   "types": "src/index.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SHISME/react-native-draggable-grid"
+    "url": "https://github.com/wy2010344/react-native-draggable-grid"
   },
   "scripts": {
     "built": "rm -rf built && tsc",

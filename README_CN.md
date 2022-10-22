@@ -6,11 +6,16 @@
 
 第二步,添加使用gap的情况,react-native里没有gap,只有用margin-left+margin-top来模拟,同时需要包装在容器里,内部容器偏移margin-left+margin-top的负数
 
+* 目前是用的分散对齐的方式(space-around),即每个元素有一个背景元素来紧凑排列,通过指定每一行的元素个数,自动计算出间隔
+
 第三步,适应更多布局.比如横向,其它flex方向.
 
 第四步,在滚动容器内
 
 其它,代码更优化紧凑
+
+
+demo@[snack](https://snack.expo.dev/@wy2010344/draggable-grid-demo)
 
 ---
 
