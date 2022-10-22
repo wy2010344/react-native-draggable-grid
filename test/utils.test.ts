@@ -17,7 +17,7 @@ describe('utils 方法测试', () => {
   })
   it('differenceBy 方法', () => {
     const arr2 = [{ id: 1 }, { id: 3 }, { id: 5 }]
-    expect(differenceBy(arr, arr2, 'id')).toMatchObject([{ id: 2 }, { id: 4 }])
-    expect(differenceBy(arr2, arr, 'id')).toMatchObject([{ id: 5 }])
+    expect(differenceBy(arr, v => v.id, arr2, v => v.id)).toMatchObject([{ id: 2 }, { id: 4 }])
+    expect(differenceBy(arr2, v => v.id, arr, v => v.id)).toMatchObject([{ id: 5 }])
   })
 })

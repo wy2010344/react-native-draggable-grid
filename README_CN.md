@@ -1,3 +1,19 @@
+一个克隆版本,意在添加更多的功能.
+
+试用过的比较好用的库,大部分地方能使用
+
+第一步,将key外置,data不必继承它.
+
+第二步,添加使用gap的情况,react-native里没有gap,只有用margin-left+margin-top来模拟,同时需要包装在容器里,内部容器偏移margin-left+margin-top的负数
+
+第三步,适应更多布局.比如横向,其它flex方向.
+
+第四步,在滚动容器内
+
+其它,代码更优化紧凑
+
+---
+
 # react-native-draggable-grid
 
 ## 例子
